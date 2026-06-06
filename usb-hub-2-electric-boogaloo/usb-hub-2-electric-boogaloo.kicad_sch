@@ -470,6 +470,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:10.0QHHTZB6.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6732,7 +6831,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 134.62 92.71 90)
+		(at 128.27 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6742,7 +6841,7 @@
 		)
 		(uuid "15785000-1385-4d46-bd7f-1ddfb3a59720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 87.2453 90)
+			(at 128.27 87.2453 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +7071,7 @@
 	)
 	(global_label "D1"
 		(shape input)
-		(at 128.27 92.71 90)
+		(at 134.62 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6982,7 +7081,7 @@
 		)
 		(uuid "3c6cfeec-ddca-4f3a-9737-24a7b760f600")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 87.2453 90)
+			(at 134.62 87.2453 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7575,7 @@
 	)
 	(global_label "D1"
 		(shape input)
-		(at 30.48 152.4 180)
+		(at 30.48 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7486,7 +7585,7 @@
 		)
 		(uuid "bd47f019-bfb2-4a38-aace-49bf3ad0c63a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0153 152.4 0)
+			(at 25.0153 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7692,7 +7791,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 30.48 154.94 180)
+		(at 30.48 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7702,7 +7801,7 @@
 		)
 		(uuid "e5b71b6b-b813-40bd-a0a1-3be117e65bcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0153 154.94 0)
+			(at 25.0153 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,6 +8796,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 123.19 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f41345e-6974-4fd3-809e-7326988276f0")
+		(property "Reference" "H3"
+			(at 125.73 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 125.73 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 123.19 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 123.19 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 149.86 52.07 0)
 		(unit 1)
@@ -8773,6 +8948,82 @@
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 123.19 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1082a605-7e6d-4592-aad4-b73ec2b9c785")
+		(property "Reference" "H1"
+			(at 125.73 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 125.73 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 123.19 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 123.19 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13340,7 +13591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 79.502 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -14942,7 +15193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 89.662 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -15067,6 +15318,82 @@
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 123.19 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4692a7-f9e4-4c0b-8197-0dc9eb26e82d")
+		(property "Reference" "H2"
+			(at 125.73 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 125.73 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 123.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 123.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
