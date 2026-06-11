@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -78,15 +78,15 @@
       ],
       "drc_exclusions": [
         [
+          "copper_edge_clearance|141561000|62334000|bb7af84a-3fe2-4087-b140-fcc32018c33a|15f611f8-9139-4096-a4d4-10805e1e69e4",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141561000|72794000|bb7af84a-3fe2-4087-b140-fcc32018c33a|9c50a016-01c5-4419-adb1-fbfc2b21b330",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|145326000|67564000|45a9d632-ae40-4fb4-b4ab-50643b5e3a19|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|142578730|63384000|bb7af84a-3fe2-4087-b140-fcc32018c33a|b6fb777f-98c0-4c0e-bc33-2bfeddb1ad8c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|142590682|71744000|bb7af84a-3fe2-4087-b140-fcc32018c33a|34f282df-8076-464c-9c74-c6fc113f36fc",
           ""
         ]
       ],
