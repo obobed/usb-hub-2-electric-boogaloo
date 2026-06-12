@@ -3,9 +3,41 @@
 I made this since I wanted a unique USB hub with cool colours unlike some bland and boring ones you find off Amazon or places like that. It has 2 USB-C, 1 USB-A and an Micro SD card slot for downstream ports, and a USB-C female port for the upstream.
 
 ## Repo Structure
+When a directory includes a folder named "archive", that contains the files I used before I modified my PCB to use a female upstream port instead of a male one
+* [/3D](/3D) - 3D models (both the components and the whole pcb exported as a STEP)
+* [/cad](/cad) - my case exported from onshape (you can view the actual onshape link below), has both models with the PCB inside, and without the PCB
+* [/images](/images) - various image assets used in my readme (here) and my zine!
+* [/pcb](/pcb) - all of my kicad design files
+* [/plots](/plots) - various plots, including dxfs for each layer, and a schematic image
+* [/production](/production) - contains everything needed for PCB production, like gerbers and a component BOM
+* [/rendering](/rendering) - the documents I used in Blender to render my design, with the OnShape exported objs in a subfolder
+* [/zine](/zine) - my Zine! pdf and png included, and most assets are in [/images](/images)
+
+
 ## CAD
 [OnShape link here!](https://cad.onshape.com/documents/3911889ee056a8d8e4ba98bf/w/b6e308ebfed3eeb37e65c26c/e/fc788076bb25bd97f4780c85?renderMode=0&uiState=6a2ab7df3cd020227a4c42b9)
-Step files can be found in /cad
+Step files can be found in [/cad](cad/)
+
+## Images
+### Schematic
+<img src="/images/schema.png" alt="schematic" width="50%">
+
+### 3D Model
+<img src="/images/3D-view-latest-no-receptacle.png" alt="3D front view" width="50%">
+<img src="/images/3D-view-back.png" alt="3D back view" width="50%">
+
+### PCB
+<img src="/images/full-pcb.png" alt="full pcb image" width="50%">
+
+#### Front Copper
+<img src="/images/front-copper.png" alt="front copper pcb image" width="50%">
+
+#### Back Copper
+<img src="/images/back-copper.png" alt="back copper pcb image" width="50%">
+
+#### Silkscreen
+<img src="/images/front-silkscreen.png" alt="front silkscreen image" width="50%">
+<img src="/images/back-silkscreen.png" alt="back silkscreen image" width="50%">
 
 ## BOM
 ### PCB Components
