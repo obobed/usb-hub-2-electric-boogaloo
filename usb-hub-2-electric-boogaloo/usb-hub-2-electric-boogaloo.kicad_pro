@@ -78,15 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|141561000|62334000|bb7af84a-3fe2-4087-b140-fcc32018c33a|15f611f8-9139-4096-a4d4-10805e1e69e4",
+          "copper_edge_clearance|141180000|63705000|bb7af84a-3fe2-4087-b140-fcc32018c33a|6c360855-df62-493e-97d2-bfc6a960d87f",
           ""
         ],
         [
-          "copper_edge_clearance|141561000|72794000|bb7af84a-3fe2-4087-b140-fcc32018c33a|9c50a016-01c5-4419-adb1-fbfc2b21b330",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|145326000|67564000|45a9d632-ae40-4fb4-b4ab-50643b5e3a19|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|141180000|72345000|bb7af84a-3fe2-4087-b140-fcc32018c33a|e94b5e26-343f-4aa8-8b0a-9af536c6b144",
           ""
         ]
       ],
@@ -175,7 +171,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -703,7 +699,7 @@
         "uuid": "258ca4ed-9343-4248-9111-37b15314376b"
       }
     ],
-    "used_designators": "H1-4",
+    "used_designators": "H1-4,USBC1,USB1-4,D1-7,#PWR1-42,C1-15,R1-10,SIM1,U1-2",
     "variants": []
   },
   "sheets": [

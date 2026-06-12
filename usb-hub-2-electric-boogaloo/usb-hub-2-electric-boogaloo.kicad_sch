@@ -1560,412 +1560,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:GT-USB-8016B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "USB"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT-USB-8016B"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:USB-SMD_GT-USB-8016B"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C3001295.pdf"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "G-Switch(品赞)"
-				(at 0 -31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "GT-USB-8016B"
-				(at 0 -34.29 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C3001295"
-				(at 0 -36.83 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GT-USB-8016B_0_1"
-				(rectangle
-					(start -3.81 16.51)
-					(end 7.62 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 15.24)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 19.05 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -19.05 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 19.05 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -19.05 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 11.43 0)
-					(length 2.54)
-					(name "TX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 8.89 0)
-					(length 2.54)
-					(name "TX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 6.35 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 3.81 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -6.35 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -8.89 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -11.43 0)
-					(length 2.54)
-					(name "RX1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -13.97 0)
-					(length 2.54)
-					(name "RX1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:PESD5V0V1BB,115"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4314,12 +3908,6 @@
 		(uuid "022dea42-8c90-46b9-9339-ca11f16c33bd")
 	)
 	(junction
-		(at 19.05 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02c29dba-2800-4466-805d-df715f6baf68")
-	)
-	(junction
 		(at 60.96 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4416,10 +4004,22 @@
 		(uuid "31450fb3-3119-4fe8-97f7-089ea5149ccd")
 	)
 	(junction
+		(at 43.18 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b58007-3d6f-4428-9fdc-d8d7d38dafa0")
+	)
+	(junction
 		(at 78.74 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36d074d6-2852-4f76-bbc5-b9ff7cd5b2cc")
+	)
+	(junction
+		(at 13.97 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38669da8-b60d-4e3f-a217-53a634703041")
 	)
 	(junction
 		(at 161.29 48.26)
@@ -4432,12 +4032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "415c4e53-96fc-48fa-ae2b-eb5e1f918d98")
-	)
-	(junction
-		(at 33.02 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "426c19b4-1f1c-4d21-8594-c84b2d8a3432")
 	)
 	(junction
 		(at 171.45 53.34)
@@ -4500,10 +4094,10 @@
 		(uuid "64868f72-d03e-4eb2-858b-311b5d29dab5")
 	)
 	(junction
-		(at 19.05 58.42)
+		(at 43.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67701b48-bfde-4f0e-b8cb-5f27d99539ca")
+		(uuid "750e9837-54f7-444a-b256-a502750d4d07")
 	)
 	(junction
 		(at 245.11 138.43)
@@ -4516,12 +4110,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dc24347-310a-43ad-a1d4-3e3124a1fc61")
-	)
-	(junction
-		(at 39.37 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b8487de-e386-4f00-af20-fa9276037d7f")
 	)
 	(junction
 		(at 90.17 165.1)
@@ -4540,12 +4128,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7bf4dfc-85a4-4af4-ae37-f8237c53b721")
-	)
-	(junction
-		(at 43.18 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7fc2427-f764-44ec-a6c6-c3208ccbe0d2")
 	)
 	(junction
 		(at 227.33 57.15)
@@ -4586,10 +4168,6 @@
 		(uuid "2e9587a6-acf7-4f8d-8376-3e8406ca6f62")
 	)
 	(no_connect
-		(at 31.75 22.86)
-		(uuid "35bc3175-52d8-4890-9325-a037654297b6")
-	)
-	(no_connect
 		(at 64.77 114.3)
 		(uuid "4edec43e-b5c5-442e-af5f-abc1d64a3e3f")
 	)
@@ -4602,16 +4180,16 @@
 		(uuid "746b5075-e2bd-4f1a-8a94-d1e14b122aec")
 	)
 	(no_connect
+		(at 31.75 30.48)
+		(uuid "93d6befb-59f6-4e40-9b85-3bcfd14b62cf")
+	)
+	(no_connect
 		(at 59.69 160.02)
 		(uuid "9c77b4ae-1a64-4cc8-a907-9cd87bb551e1")
 	)
 	(no_connect
 		(at 31.75 48.26)
 		(uuid "9dc74bd8-9a69-46ac-b248-b24b7081e804")
-	)
-	(no_connect
-		(at 31.75 25.4)
-		(uuid "9efcfb61-9fe6-4c8d-b68c-74bb3d517830")
 	)
 	(no_connect
 		(at 245.11 80.01)
@@ -4624,10 +4202,6 @@
 	(no_connect
 		(at 59.69 162.56)
 		(uuid "a52a6310-935a-4387-9853-76031282a069")
-	)
-	(no_connect
-		(at 31.75 45.72)
-		(uuid "c1a24811-70bc-4f95-a5d0-5612bae09041")
 	)
 	(no_connect
 		(at 67.31 114.3)
@@ -4662,16 +4236,6 @@
 			(type default)
 		)
 		(uuid "01985f61-3d8a-4764-ad35-658421d632f7")
-	)
-	(wire
-		(pts
-			(xy 31.75 43.18) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02073f4e-fc77-4980-8651-edd73787664c")
 	)
 	(wire
 		(pts
@@ -4735,16 +4299,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 30.48) (xy 33.02 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a54810a-254c-48b6-aca3-9fec788d2377")
-	)
-	(wire
-		(pts
 			(xy 240.03 46.99) (xy 240.03 49.53)
 		)
 		(stroke
@@ -4762,6 +4316,16 @@
 			(type default)
 		)
 		(uuid "0bf7c638-7104-4c75-8ad1-060be026b9f6")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da60fa4-b40f-4225-98d5-6bbb36cf09ff")
 	)
 	(wire
 		(pts
@@ -4835,16 +4399,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 58.42) (xy 19.05 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167751d7-8125-4a28-ad13-2f611039b38f")
-	)
-	(wire
-		(pts
 			(xy 255.27 115.57) (xy 257.81 115.57)
 		)
 		(stroke
@@ -4872,16 +4426,6 @@
 			(type default)
 		)
 		(uuid "19dc7755-e7d8-478f-b0e8-2a4d91622f0a")
-	)
-	(wire
-		(pts
-			(xy 33.02 30.48) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b32c49f-ce89-45e4-832e-a277f3221dc4")
 	)
 	(wire
 		(pts
@@ -4935,23 +4479,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 43.18 30.48)
+			(xy 31.75 27.94) (xy 43.18 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e74e444-3a45-4406-a8d9-70fc84bcd5ac")
-	)
-	(wire
-		(pts
-			(xy 19.05 60.96) (xy 19.05 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec8950e-0d91-445f-839d-43bb973524ad")
 	)
 	(wire
 		(pts
@@ -5065,16 +4599,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 27.94) (xy 35.56 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26062b80-a256-4911-b244-36bff089fd07")
-	)
-	(wire
-		(pts
 			(xy 160.02 93.98) (xy 160.02 99.06)
 		)
 		(stroke
@@ -5145,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 27.94) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304561ed-483a-44d0-b4ca-c55c571d1741")
+	)
+	(wire
+		(pts
 			(xy 229.87 31.75) (xy 234.95 31.75)
 		)
 		(stroke
@@ -5185,16 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 55.88) (xy 21.59 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34430d29-6e1a-4cf1-a56a-e476faed79ff")
-	)
-	(wire
-		(pts
 			(xy 81.28 88.9) (xy 91.44 88.9)
 		)
 		(stroke
@@ -5202,6 +4726,16 @@
 			(type default)
 		)
 		(uuid "358dbf66-6780-4b6e-99e8-374c8be048b8")
+	)
+	(wire
+		(pts
+			(xy 13.97 57.15) (xy 13.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b4ca7e-1abd-4884-bc89-2496106b9305")
 	)
 	(wire
 		(pts
@@ -5252,16 +4786,6 @@
 			(type default)
 		)
 		(uuid "39f4eeee-b144-41c6-a941-8ff4fd8b8285")
-	)
-	(wire
-		(pts
-			(xy 55.88 30.48) (xy 59.69 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a57bbda-5564-4b43-a5a4-99c1df2fb076")
 	)
 	(wire
 		(pts
@@ -5395,16 +4919,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 45.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5495536b-f343-452f-985a-a6bc7e5f6266")
-	)
-	(wire
-		(pts
 			(xy 78.74 180.34) (xy 78.74 172.72)
 		)
 		(stroke
@@ -5422,6 +4936,16 @@
 			(type default)
 		)
 		(uuid "5baa1433-8cdc-47e5-a552-b2aa082f7d53")
+	)
+	(wire
+		(pts
+			(xy 15.24 57.15) (xy 15.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d71d986-bd37-4e4c-998c-8e1041a27e9d")
 	)
 	(wire
 		(pts
@@ -5475,6 +4999,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 27.94) (xy 67.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bff107-0745-4bbd-aaee-dd552245d61a")
+	)
+	(wire
+		(pts
 			(xy 242.57 123.19) (xy 238.76 123.19)
 		)
 		(stroke
@@ -5505,13 +5039,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 40.64) (xy 45.72 40.64)
+			(xy 40.64 16.51) (xy 40.64 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "699ad692-07f0-4fce-acba-57aa8c3f077b")
+		(uuid "668dbaa7-233a-46d9-9dca-a5728d8d35da")
 	)
 	(wire
 		(pts
@@ -5522,16 +5056,6 @@
 			(type default)
 		)
 		(uuid "69f5b02e-ffca-4c29-918a-e3b5b0a92ffb")
-	)
-	(wire
-		(pts
-			(xy 43.18 50.8) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6f29f1-e760-4192-b226-f7e2ac94ae4e")
 	)
 	(wire
 		(pts
@@ -5565,16 +5089,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 31.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711f56e9-913e-4488-a02f-ee7619b1d2a9")
-	)
-	(wire
-		(pts
 			(xy 102.87 48.26) (xy 118.11 48.26)
 		)
 		(stroke
@@ -5595,13 +5109,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 22.86) (xy 35.56 27.94)
+			(xy 43.18 27.94) (xy 43.18 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7653020a-da12-47ca-b770-86fc835b78a9")
+		(uuid "74d4d106-9b88-4c40-b27c-ae1347bf5362")
 	)
 	(wire
 		(pts
@@ -5622,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "792830b3-974c-4bcb-9178-ae0def8faf59")
+	)
+	(wire
+		(pts
+			(xy 31.75 25.4) (xy 35.56 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b43920-4614-4b0b-87ae-cf0bb56490e6")
 	)
 	(wire
 		(pts
@@ -5652,6 +5176,16 @@
 			(type default)
 		)
 		(uuid "7db6b058-b33e-4f59-9291-20a67508235c")
+	)
+	(wire
+		(pts
+			(xy 31.75 53.34) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e29f8fc-00cc-4bf6-8b2e-ac11666c6be2")
 	)
 	(wire
 		(pts
@@ -5745,6 +5279,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 57.15) (xy 13.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd04177-7ed9-4011-87c4-8eb4738e7e2a")
+	)
+	(wire
+		(pts
 			(xy 48.26 101.6) (xy 50.8 101.6)
 		)
 		(stroke
@@ -5762,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "902b4707-fa50-4918-addf-94de5df5fc73")
+	)
+	(wire
+		(pts
+			(xy 13.97 25.4) (xy 13.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a78a43-3319-41ea-9b3f-a12cbde4a0b3")
 	)
 	(wire
 		(pts
@@ -5835,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 50.8) (xy 39.37 50.8)
+			(xy 31.75 50.8) (xy 43.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5922,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "9f2e2800-bb31-4a87-a80e-67f3ffb6587d")
+	)
+	(wire
+		(pts
+			(xy 35.56 25.4) (xy 35.56 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01b2007-098a-4669-bc2d-0afdc000b3e9")
 	)
 	(wire
 		(pts
@@ -6015,16 +5579,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 22.86) (xy 43.18 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1ced95-858c-4bc0-b218-ee9c67cee9ee")
-	)
-	(wire
-		(pts
 			(xy 227.33 67.31) (xy 245.11 67.31)
 		)
 		(stroke
@@ -6052,6 +5606,16 @@
 			(type default)
 		)
 		(uuid "b1e3717b-dc50-49e4-b8bc-213ce65fd8ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 59.69) (xy 43.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dcf9e0-4ac3-4c17-aa53-f2f409174380")
 	)
 	(wire
 		(pts
@@ -6115,17 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 15.24) (xy 19.05 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb36e434-38a4-4af7-b5e9-f541e2964a85")
-	)
-	(wire
-		(pts
-			(xy 45.72 50.8) (xy 45.72 49.53)
+			(xy 54.61 59.69) (xy 54.61 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6152,26 +5706,6 @@
 			(type default)
 		)
 		(uuid "bcbce83a-9eee-498a-88c3-0b6c0f4cffbd")
-	)
-	(wire
-		(pts
-			(xy 19.05 15.24) (xy 19.05 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd44cffa-d1a1-4a5d-8e11-78521d28b01b")
-	)
-	(wire
-		(pts
-			(xy 19.05 58.42) (xy 19.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3a023c-b771-491e-8f15-56aa26b852c3")
 	)
 	(wire
 		(pts
@@ -6255,16 +5789,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 15.24) (xy 19.05 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79e2d02-ddf9-4777-aa49-4b342f5678ee")
-	)
-	(wire
-		(pts
 			(xy 81.28 99.06) (xy 81.28 101.6)
 		)
 		(stroke
@@ -6292,16 +5816,6 @@
 			(type default)
 		)
 		(uuid "ceb0430b-c04c-45e7-8ab0-ff184ffac18c")
-	)
-	(wire
-		(pts
-			(xy 43.18 30.48) (xy 48.26 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cee25f92-faf3-41a2-917a-e0208cfb9a34")
 	)
 	(wire
 		(pts
@@ -6335,6 +5849,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39fd022-2ec4-43f3-ab62-38314ceec206")
+	)
+	(wire
+		(pts
 			(xy 62.23 116.84) (xy 62.23 114.3)
 		)
 		(stroke
@@ -6352,16 +5876,6 @@
 			(type default)
 		)
 		(uuid "d58451fb-4789-49db-89f4-e79756e298a2")
-	)
-	(wire
-		(pts
-			(xy 43.18 38.1) (xy 43.18 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bd8604-e837-4859-b074-cdad0be34dbb")
 	)
 	(wire
 		(pts
@@ -6405,13 +5919,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 35.56) (xy 31.75 35.56)
+			(xy 35.56 16.51) (xy 40.64 16.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d93e1350-bb93-4b1f-acba-d8ba29278eb2")
+		(uuid "d8358696-ebcc-4844-8767-898903ef9183")
 	)
 	(wire
 		(pts
@@ -6422,6 +5936,16 @@
 			(type default)
 		)
 		(uuid "d9a16764-5271-48a0-8f1a-2e9937983833")
+	)
+	(wire
+		(pts
+			(xy 43.18 27.94) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da491edd-3223-484e-a77a-ca044bf82b25")
 	)
 	(wire
 		(pts
@@ -6675,16 +6199,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 17.78) (xy 21.59 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99d0a11-44c1-4acb-92bf-1420bb331a2c")
-	)
-	(wire
-		(pts
 			(xy 50.8 97.79) (xy 50.8 101.6)
 		)
 		(stroke
@@ -6732,6 +6246,26 @@
 			(type default)
 		)
 		(uuid "ffc5b7c4-a859-4cad-991d-c303afe4d00c")
+	)
+	(label "VBUS_D"
+		(at 44.45 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a921626b-a057-435b-bb12-107481914a20")
+	)
+	(label "+5V"
+		(at 62.23 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6ffbe06-5e8a-4568-9f1e-ec4f3dee698d")
 	)
 	(global_label "D+"
 		(shape input)
@@ -7069,6 +6603,30 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape input)
+		(at 31.75 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a517345-dfa6-42d8-8899-e6f32e9eb87e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.5776 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D1"
 		(shape input)
 		(at 134.62 92.71 90)
@@ -7095,7 +6653,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 34.29 38.1 0)
+		(at 31.75 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7105,7 +6663,7 @@
 		)
 		(uuid "434a95af-7be3-4fe9-b50a-8d2e2240e43f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1176 38.1 0)
+			(at 37.5776 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7237,6 +6795,30 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape input)
+		(at 31.75 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66388201-2ab3-4476-b3e9-1d96949b28ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.5776 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D1"
 		(shape input)
 		(at 83.82 101.6 0)
@@ -7359,7 +6941,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 34.29 35.56 0)
+		(at 31.75 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7369,7 +6951,7 @@
 		)
 		(uuid "7dbedf90-1938-485e-ac91-2b331794c3ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1176 35.56 0)
+			(at 37.5776 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +7772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04d13942-0d3a-4822-9559-a8933cf3eda2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR028"
 			(at 229.87 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8250,7 +7832,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR011")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8268,7 +7850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0654cee5-bb02-46f3-9084-47b28d53ac26")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR012"
 			(at 78.74 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +7910,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR037")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8336,85 +7918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "082cffcd-95ff-4865-878a-e2f7db9fef64")
-		(property "Reference" "#PWR06"
-			(at 43.18 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed5e965b-68f6-429b-a9d4-4177c5718519")
-		)
-		(instances
-			(project "usb-hub-2-electric-boogaloo"
-				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 50.8 0)
+		(at 54.61 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8425,7 +7929,7 @@
 		(fields_autoplaced yes)
 		(uuid "095a5759-5ecc-4ab1-9f7f-44b3f9c246d0")
 		(property "Reference" "#PWR07"
-			(at 45.72 57.15 0)
+			(at 54.61 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,7 +7940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 55.88 0)
+			(at 54.61 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8446,7 +7950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 50.8 0)
+			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +7961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 50.8 0)
+			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +7972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 50.8 0)
+			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,7 +8006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c62b7d8-9c24-4d41-9a7c-4148673543da")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR022"
 			(at 162.56 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8562,7 +8066,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR049")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8580,7 +8084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d186363-46d5-4f0e-806f-53e8253846a5")
-		(property "Reference" "USB2"
+		(property "Reference" "USB4"
 			(at 266.7 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8711,7 +8215,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "USB2")
+					(reference "USB4")
 					(unit 1)
 				)
 			)
@@ -8729,7 +8233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df249ed-4041-4e5c-83f4-b65b696c9197")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR014"
 			(at 91.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8789,7 +8293,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR040")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8883,7 +8387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10698cfe-17a7-49fb-866e-0b2e0eb55e9f")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 153.67 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8947,7 +8451,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9041,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e64f2b-f554-4793-b91a-3f3811c565b9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 167.64 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +8605,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9119,7 +8623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d7f65b-f06d-4bdb-860d-99b6366ab3d0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9179,7 +8683,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9197,7 +8701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a2238c1-b90d-4a4b-a946-73d09ee0baac")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 93.98 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9261,7 +8765,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C11")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9279,7 +8783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aac35f4-a083-4b7d-8df6-7fcea7c1931b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR06"
 			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9339,7 +8843,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR041")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9357,7 +8861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b124d11-96d6-45df-9013-450152354fa3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR013"
 			(at 80.01 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9417,7 +8921,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR034")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9435,7 +8939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "208c2bdc-9dc1-4b00-aacd-7c10d22494a4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR034"
 			(at 242.57 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9495,7 +8999,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR014")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9512,7 +9016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "309c2271-61a9-416c-bc1e-ad99b2100080")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 246.888 149.098 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9610,7 +9114,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b6452f-2c51-4d37-b799-235266c06be2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR042"
 			(at 278.13 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9688,7 +9192,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR020")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9706,7 +9210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c62473-e21c-404e-a23c-c3fec0eefdb8")
-		(property "Reference" "C15"
+		(property "Reference" "C7"
 			(at 106.68 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +9274,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C15")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9788,7 +9292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b39223-7f2a-45e0-9772-af158df97299")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 147.32 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9925,7 +9429,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9943,7 +9447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349b96ab-fcf3-476f-b7c3-2ca80c2ec3d2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR033"
 			(at 241.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10003,7 +9507,85 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR026")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d77e57-1aa7-4a6a-8b49-0992fd500a2d")
+		(property "Reference" "#PWR02"
+			(at 31.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d45a8219-503e-406d-986b-e6ebeeda71d9")
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10021,7 +9603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37875774-460b-4844-99b5-b34d4c5a2af8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 246.38 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10081,7 +9663,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10099,7 +9681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd7d651-af7e-454a-aa5b-912bcc072f92")
-		(property "Reference" "USB1"
+		(property "Reference" "USB3"
 			(at 254 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +9812,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "USB1")
+					(reference "USB3")
 					(unit 1)
 				)
 			)
@@ -10248,7 +9830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3df4fb7c-5f47-4ca9-a54a-0b4548257d89")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 236.22 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10312,7 +9894,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10330,7 +9912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e83346f-8c02-40f8-97cd-8144e81108a4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR024"
 			(at 171.45 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10390,7 +9972,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR032")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10407,7 +9989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ef9e2f7-6e7c-4588-9db6-b18ea740e2ea")
-		(property "Reference" "C14"
+		(property "Reference" "C3"
 			(at 52.832 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +10053,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C14")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10489,7 +10071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1577b5-18cb-4e35-8caf-2602e2d969c8")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 245.11 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10553,7 +10135,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10571,7 +10153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496768ed-c728-4382-b1a7-545099af0f32")
-		(property "Reference" "C13"
+		(property "Reference" "C4"
 			(at 71.12 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10635,7 +10217,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10653,7 +10235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f46fe5-f4f9-4e67-b666-891e88612d60")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR041"
 			(at 275.59 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10713,7 +10295,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR013")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b551723-3666-4746-b6bb-43220c3f0f13")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 175.26 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10795,7 +10377,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10813,7 +10395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1ff66c-a5e5-4254-bc0c-fe406206b859")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 218.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10455,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10891,7 +10473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9117df-78d6-4254-aa8a-dae3dc36c788")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR038"
 			(at 254 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10951,7 +10533,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR017")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10968,7 +10550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60fe2fa7-e4a5-4d80-885c-121e668c32ab")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 82.55 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11032,7 +10614,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11050,7 +10632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6155a92c-2648-4abe-b78a-fedb93f9ce4b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR017"
 			(at 102.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11110,7 +10692,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR031")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11128,7 +10710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f2f4bb-0333-434c-9021-f1227776d8f3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR021"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11188,7 +10770,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR033")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11206,7 +10788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cae3b2a-7646-4097-b3f0-225c530aa5dc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR032"
 			(at 240.03 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11266,7 +10848,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR025")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11284,7 +10866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f385383-e94e-4fa6-9776-e7b29901c14d")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 44.45 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +10930,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11366,7 +10948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72cbebf7-20ea-4bf1-97be-b36fe7a1a96e")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 35.56 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11430,7 +11012,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11448,7 +11030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75dcd5a8-41ec-4421-a994-d5ddc79fc61d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR027"
 			(at 226.06 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11508,7 +11090,156 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR043")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TYPE-C16PIN2MD")
+		(at 25.4 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78113f96-b8ac-48d7-a836-83ba3094c721")
+		(property "Reference" "USB1"
+			(at 22.86 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C 16PIN 2MD"
+			(at 22.86 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPE-C-16PIN-2MD-073"
+			(at 25.4 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
+			(at 25.4 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 25.4 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TYPE-C 16PIN 2MD(073)"
+			(at 25.4 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2765186"
+			(at 25.4 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A7"
+			(uuid "55a9bddd-f750-4c7d-b31c-8c07ae3285a6")
+		)
+		(pin "B4A9"
+			(uuid "87355322-3628-4d64-baad-2728dd44d4d9")
+		)
+		(pin "B7"
+			(uuid "378124d0-ff12-4334-b81e-28da6878fe77")
+		)
+		(pin "B6"
+			(uuid "d3ca5d1b-c920-4e96-8567-d64c690fa866")
+		)
+		(pin "13"
+			(uuid "35b3c72c-2d6f-4a4d-a55c-f2a68671906f")
+		)
+		(pin "B8"
+			(uuid "87d8f30a-205f-4b92-8432-a45e14a7fd62")
+		)
+		(pin "A8"
+			(uuid "d3e8c47c-900e-462c-b854-988ce68f9a52")
+		)
+		(pin "A4B9"
+			(uuid "4252a21b-1800-407e-aec8-232ea82819f8")
+		)
+		(pin "B1A12"
+			(uuid "28705472-0fc9-4c15-b59e-33ff0bc965f0")
+		)
+		(pin "14"
+			(uuid "80004c78-9e59-4d98-a78b-9c110dde9065")
+		)
+		(pin "B5"
+			(uuid "1c02a63c-68b4-4381-a268-a793ba75bad1")
+		)
+		(pin "A6"
+			(uuid "a64185db-0f66-4425-bf09-9bbe9a7a2749")
+		)
+		(pin "A1B12"
+			(uuid "cc68499f-68a9-4dee-8662-8555ac9f58f7")
+		)
+		(pin "A5"
+			(uuid "bf971941-370d-4033-aee0-da79e7811caa")
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -11526,7 +11257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81736dcc-22fc-4df7-8294-85138de643a1")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR031"
 			(at 238.76 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11317,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR046")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11604,7 +11335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86fd1856-cef1-458e-8497-eeea15e82366")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 265.43 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11664,7 +11395,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11682,7 +11413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87655130-07ff-4393-97c1-9ec91cc3d0b6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11742,7 +11473,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11760,7 +11491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a960434-ef97-4a14-ac63-4398e09953ec")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 229.87 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11824,7 +11555,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11832,7 +11563,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 45.72 0)
+		(at 54.61 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11842,8 +11573,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ffd2a17-0b9f-4cf3-94f2-2e6419f392b2")
-		(property "Reference" "R1"
-			(at 48.26 44.4499 0)
+		(property "Reference" "R4"
+			(at 57.15 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11854,7 +11585,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 48.26 46.9899 0)
+			(at 57.15 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11864,8 +11595,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 43.942 45.72 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 52.832 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 45.72 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11618,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 45.72 0)
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11906,7 +11637,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11924,7 +11655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "904eea72-c8f1-4ce1-91cc-58881c02dd7e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR08"
 			(at 59.69 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11984,7 +11715,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR042")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11992,7 +11723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 50.8 0)
+		(at 43.18 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12003,7 +11734,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d3e664-b8cf-4b86-bb18-225d2a34e9e9")
 		(property "Reference" "#PWR05"
-			(at 39.37 57.15 0)
+			(at 43.18 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,7 +11745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 55.88 0)
+			(at 43.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12024,7 +11755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 50.8 0)
+			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12035,7 +11766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 50.8 0)
+			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12046,7 +11777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 50.8 0)
+			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12080,7 +11811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba63340-e32b-493c-9540-cf20edc17a6a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR039"
 			(at 259.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +11871,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR018")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12148,7 +11879,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 34.29 0)
+		(at 43.18 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12158,8 +11889,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b01d88-9be8-4bd3-9fc6-e430c4769348")
-		(property "Reference" "C16"
-			(at 46.99 33.0199 0)
+		(property "Reference" "C2"
+			(at 46.99 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12170,7 +11901,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 46.99 35.5599 0)
+			(at 46.99 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12181,7 +11912,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 44.1452 38.1 0)
+			(at 44.1452 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12192,7 +11923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 34.29 0)
+			(at 43.18 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +11934,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 34.29 0)
+			(at 43.18 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12222,7 +11953,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C16")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12240,7 +11971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5394189-9c7f-47be-9f2c-d4d73550b849")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 53.34 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12304,7 +12035,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12321,7 +12052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a65e4403-fa95-4366-8f0b-affbfec350ca")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 221.742 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12419,7 +12150,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12437,7 +12168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82cbe6b-763b-4c0a-b8ee-edd955fa803d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR03"
 			(at 33.02 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12497,7 +12228,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR035")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4e6665-1fa1-4bd9-83ab-e88f3250f27e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR019"
 			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12575,7 +12306,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR048")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12593,7 +12324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa67af91-3524-4a9b-833e-530821e07ef6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR030"
 			(at 232.41 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12653,7 +12384,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR045")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12670,7 +12401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad0cf0b6-6a85-4464-b743-85a709fed53b")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 138.43 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12786,163 +12517,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:GT-USB-8016B")
-		(at 25.4 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae5282f3-1aaa-4858-b118-208a418be94d")
-		(property "Reference" "USB5"
-			(at 32.258 59.944 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GT-USB-8016B"
-			(at 37.338 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:USB-SMD_GT-USB-8016B"
-			(at 25.4 10.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C3001295.pdf"
-			(at 25.4 7.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "G-Switch(品赞)"
-			(at 25.4 5.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GT-USB-8016B"
-			(at 25.4 2.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C3001295"
-			(at 25.4 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A12"
-			(uuid "afa37da6-5342-4758-b6f3-6dc1c69a84bc")
-		)
-		(pin "4"
-			(uuid "bfb518a9-4de0-4ee9-b6ac-7fefaabb2d28")
-		)
-		(pin "A8"
-			(uuid "5b95977e-d966-4b08-b2b6-ad1d30bb19dc")
-		)
-		(pin "A3"
-			(uuid "5aedebde-6c36-4658-915d-9e14faba89d9")
-		)
-		(pin "3"
-			(uuid "5fe92fcb-d87c-41b3-b8d0-4a8ac044b0d0")
-		)
-		(pin "A5"
-			(uuid "fc8bddbd-1191-41db-b5b9-9253cd132869")
-		)
-		(pin "2"
-			(uuid "64df4a26-81c5-4fff-9508-6d049abc5d03")
-		)
-		(pin "A6"
-			(uuid "6f841fc5-0456-4ea7-a73b-6ab5b2a01a4a")
-		)
-		(pin "1"
-			(uuid "1d0cb6b9-09f8-432f-a9c1-3cf24b5464a1")
-		)
-		(pin "A2"
-			(uuid "933b0b70-6a53-43f6-80f9-987011f25fa2")
-		)
-		(pin "B10"
-			(uuid "bba51bbf-88ab-42c4-9bd2-2c8e41b90f24")
-		)
-		(pin "A7"
-			(uuid "3341c726-487b-4129-9534-6c177b4f3954")
-		)
-		(pin "A4"
-			(uuid "aa9a3680-57be-4e17-bf83-e0d2a2ceaa0b")
-		)
-		(pin "A9"
-			(uuid "c5cffc8a-065d-4f2b-8654-f401c78a0003")
-		)
-		(pin "A1"
-			(uuid "b5cb8e46-5c09-4c7d-b94b-6f33049ff13c")
-		)
-		(pin "B11"
-			(uuid "9955fea2-a6a7-43b4-b0da-68876b149e65")
-		)
-		(instances
-			(project "usb-hub-2-electric-boogaloo"
-				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "USB5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12960,7 +12535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b367de66-0dda-4f5b-84d9-b828f9214ea0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR037"
 			(at 250.19 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13020,7 +12595,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR019")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13037,7 +12612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9a69b86-4fe6-48d8-8a0b-f04272a8fdf0")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 234.442 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13135,7 +12710,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13153,7 +12728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5ad438-fa21-495b-b986-7db2376276e9")
-		(property "Reference" "USB3"
+		(property "Reference" "USB2"
 			(at 256.54 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13262,7 +12837,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "USB3")
+					(reference "USB2")
 					(unit 1)
 				)
 			)
@@ -13280,7 +12855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c062dc2f-9bf0-40c2-b19c-d2ee11f20f82")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 46.99 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13395,7 +12970,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13403,7 +12978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 60.96 0)
+		(at 15.24 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13414,7 +12989,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3358419-f05a-48e6-8ed4-cd15b02815ec")
 		(property "Reference" "#PWR01"
-			(at 19.05 67.31 0)
+			(at 15.24 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,7 +13000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 66.04 0)
+			(at 15.24 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13435,7 +13010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 60.96 0)
+			(at 15.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,7 +13021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 60.96 0)
+			(at 15.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +13032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 60.96 0)
+			(at 15.24 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,84 +13055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 13.97 15.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c42c3df7-6ce9-4f22-a4dc-4b1b9dad76d9")
-		(property "Reference" "#PWR02"
-			(at 13.97 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 13.97 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 13.97 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 13.97 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 13.97 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93f7be61-46b9-411c-8b5e-8f8b39c6a457")
-		)
-		(instances
-			(project "usb-hub-2-electric-boogaloo"
-				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 95.25 0)
 		(unit 1)
@@ -13569,7 +13066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd999cd3-8d92-4088-b5a4-1478ecb28f2e")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 83.82 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13633,7 +13130,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13651,7 +13148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0499d06-b317-4182-9000-44a17fe5eae0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR011"
 			(at 67.31 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +13208,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR038")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13729,7 +13226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d269cf7b-0812-463b-9b56-d6d61eb720a2")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 189.23 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13793,7 +13290,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13810,7 +13307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2bb452b-26c2-424b-8534-80641ec1c6f8")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 234.188 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +13405,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13926,7 +13423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5fdb3dc-f7bb-4f99-a3b8-033895bdaea5")
-		(property "Reference" "C8"
+		(property "Reference" "C1"
 			(at 34.29 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13990,7 +13487,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13998,7 +13495,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819WS")
-		(at 52.07 30.48 0)
+		(at 57.15 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14008,8 +13505,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7f80c2-b32c-4633-9ae0-39ad1f8c5c11")
-		(property "Reference" "D2"
-			(at 51.7525 24.13 0)
+		(property "Reference" "D1"
+			(at 56.8325 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14019,7 +13516,7 @@
 			)
 		)
 		(property "Value" "1N5819WS"
-			(at 51.7525 26.67 0)
+			(at 56.8325 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14029,7 +13526,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 52.07 34.925 0)
+			(at 57.15 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14040,7 +13537,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 52.07 30.48 0)
+			(at 57.15 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14051,7 +13548,7 @@
 			)
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 52.07 30.48 0)
+			(at 57.15 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14070,7 +13567,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14088,7 +13585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db6a335c-0faf-4c9d-8965-9b4e06ab3254")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 232.41 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14148,7 +13645,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14166,7 +13663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9ece22-dac9-44d6-b1d8-5f8d84f2e326")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 222.25 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +13727,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14247,7 +13744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df2623a1-a7f1-44f7-ac11-097e0ba2adf6")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 233.172 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14309,7 +13806,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14327,7 +13824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebcf30b1-276c-4adf-9547-48e8374715f9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR035"
 			(at 245.11 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -14387,7 +13884,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR047")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14405,7 +13902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf74555-4fd1-4764-b668-1583c06f677e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR09"
 			(at 60.96 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14465,7 +13962,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR044")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14483,7 +13980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee20848a-9d36-4382-8260-804bf89b0693")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 165.1 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14547,7 +14044,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14555,7 +14052,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 30.48 0)
+		(at 67.31 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14565,8 +14062,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f00971d2-fe30-40a9-a7b4-3b838e52a2cd")
-		(property "Reference" "#PWR03"
-			(at 59.69 34.29 0)
+		(property "Reference" "#PWR010"
+			(at 67.31 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14577,7 +14074,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 59.69 25.4 0)
+			(at 67.31 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14587,7 +14084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 30.48 0)
+			(at 67.31 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14598,7 +14095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 30.48 0)
+			(at 67.31 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14609,7 +14106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 30.48 0)
+			(at 67.31 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14625,7 +14122,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14642,7 +14139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f11d718a-1b74-4ebc-a35d-a0cf37729da7")
-		(property "Reference" "D8"
+		(property "Reference" "D3"
 			(at 171.45 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14758,7 +14255,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "D8")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1b5e1ec-5760-4bf9-9dbf-a4a420a50c20")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR015"
 			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14836,7 +14333,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR036")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14854,7 +14351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40913f3-959a-40af-87b9-47d39ff011c0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR016"
 			(at 95.25 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14914,7 +14411,85 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR039")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f84960c5-1282-49ee-963e-fffadc32fe03")
+		(property "Reference" "#PWR04"
+			(at 40.64 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f49d21c-554d-443c-97cc-e944a4b26880")
+		)
+		(instances
+			(project "usb-hub-2-electric-boogaloo"
+				(path "/258ca4ed-9343-4248-9111-37b15314376b"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14931,7 +14506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa0a443a-827b-427b-8989-88d4c95c980a")
-		(property "Reference" "C18"
+		(property "Reference" "C15"
 			(at 244.602 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14993,7 +14568,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15011,7 +14586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac98ed5-e6a0-4a8b-baf7-f865f11ea353")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 121.92 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15075,7 +14650,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15093,7 +14668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbae712f-12d5-4658-8799-e06e24a47f99")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 118.11 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15153,7 +14728,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15171,7 +14746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5c9b5e-7866-4c7c-9b93-010b9b184063")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 93.98 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15235,7 +14810,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15253,7 +14828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd334e1b-d3d5-4868-a6c2-50c6f3670e6d")
-		(property "Reference" "C3"
+		(property "Reference" "C13"
 			(at 222.25 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15317,7 +14892,7 @@
 		(instances
 			(project "usb-hub-2-electric-boogaloo"
 				(path "/258ca4ed-9343-4248-9111-37b15314376b"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
