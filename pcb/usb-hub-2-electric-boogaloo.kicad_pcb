@@ -12673,7 +12673,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "REV.1"
+	(gr_text "REV.3"
 		(at 135.21 80.43 0)
 		(layer "F.SilkS")
 		(uuid "37d82cd7-65e3-4282-b9e7-f187b29ebac2")
@@ -12696,8 +12696,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Another USB Hub\nSL2.1S\nMicro SD\n2x USB-C\n1x USB-A\nUSB-C Receptacle \n(no need for another cable *cough cough*)"
-		(at 127 75.3 0)
+	(gr_text "Another USB Hub\nSL2.1S\nMicro SD\n2x USB-C\n1x USB-A\nUSB-C Upstream"
+		(at 127.508 73.66 0)
 		(layer "B.SilkS")
 		(uuid "d19ca539-6a9a-4c94-8290-ed390d227d2c")
 		(effects
