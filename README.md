@@ -42,6 +42,7 @@ Step files can be found in [/cad](cad/)
 <img src="/images/back-silkscreen.png" alt="back silkscreen image" width="50%">
 
 ## Assembly
+### Top Acrylic Window
 1. Print out the [top window template](/cad/acrylic-window-print-template.pdf) and stick it to your acrylic temporarily (using sticky tape or something like that)
 2. Use a box cutter or acrylic cutter to score along the template
 3. Snap along the score lines
@@ -50,6 +51,12 @@ Step files can be found in [/cad](cad/)
 
 > [!NOTE]
 > I'm using glue here, since there aren't other good options that are fit in this size (like heatsets definitely won't) and wouldn't compromise the transparency of the acrylic
+
+### PCB and Case
+1. Get the heatset inserts and put them in the holes
+2. Use a heated soldering iron to push them down until they're flush
+3. Align the PCB with the holes
+4. Screw the M2 screws in, and you're done!
 
 ## BOM
 ### OVERALL
