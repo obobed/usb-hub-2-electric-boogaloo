@@ -92,3 +92,6 @@ Step files can be found in [/cad](cad/)
 |USB2            |USB-A-TH_10.0QHHTZB6.3          |1       |10.0 QHHTZB6.3  |C668591    |https://jlcpcb.com/partdetail/SHOUHAN-10_0_QHHTZB63/C668591        |0.4634  |
 |                |                                |        |                |           |                                                                   |        |
 |TOTAL           |                                |        |                |           |                                                                   |26.4775 |
+
+## Zine!!
+![zine page](/zine/ZINE.png)
